@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB021ECF27BE8FDC00008A2C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB021ECE27BE8FDC00008A2C /* CoreDataManager.swift */; };
 		FB9B4C2F27BE800000690F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C2E27BE800000690F96 /* AppDelegate.swift */; };
 		FB9B4C3127BE800000690F96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C3027BE800000690F96 /* SceneDelegate.swift */; };
-		FB9B4C3327BE800000690F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C3227BE800000690F96 /* ViewController.swift */; };
 		FB9B4C3627BE800000690F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9B4C3427BE800000690F96 /* Main.storyboard */; };
 		FB9B4C3927BE800000690F96 /* NewNoteApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C3727BE800000690F96 /* NewNoteApp.xcdatamodeld */; };
 		FB9B4C3B27BE800300690F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9B4C3A27BE800300690F96 /* Assets.xcassets */; };
 		FB9B4C3E27BE800300690F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9B4C3C27BE800300690F96 /* LaunchScreen.storyboard */; };
+		FB9B4C4627BE804600690F96 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C4527BE804600690F96 /* MainTableViewController.swift */; };
+		FB9B4C4827BE824700690F96 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B4C4727BE824700690F96 /* NewNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB021ECE27BE8FDC00008A2C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		FB9B4C2B27BE800000690F96 /* NewNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9B4C2E27BE800000690F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9B4C3027BE800000690F96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB9B4C3227BE800000690F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB9B4C3527BE800000690F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB9B4C3827BE800000690F96 /* NewNoteApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewNoteApp.xcdatamodel; sourceTree = "<group>"; };
 		FB9B4C3A27BE800300690F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9B4C3D27BE800300690F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9B4C3F27BE800300690F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9B4C4527BE804600690F96 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FB9B4C4727BE824700690F96 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 			children = (
 				FB9B4C2E27BE800000690F96 /* AppDelegate.swift */,
 				FB9B4C3027BE800000690F96 /* SceneDelegate.swift */,
-				FB9B4C3227BE800000690F96 /* ViewController.swift */,
-				FB9B4C3427BE800000690F96 /* Main.storyboard */,
+				FB9B4C4727BE824700690F96 /* NewNoteViewController.swift */,
+				FB9B4C4527BE804600690F96 /* MainTableViewController.swift */,
+				FB021ECE27BE8FDC00008A2C /* CoreDataManager.swift */,
 				FB9B4C3A27BE800300690F96 /* Assets.xcassets */,
+				FB9B4C3427BE800000690F96 /* Main.storyboard */,
 				FB9B4C3C27BE800300690F96 /* LaunchScreen.storyboard */,
 				FB9B4C3F27BE800300690F96 /* Info.plist */,
 				FB9B4C3727BE800000690F96 /* NewNoteApp.xcdatamodeld */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB021ECF27BE8FDC00008A2C /* CoreDataManager.swift in Sources */,
+				FB9B4C4827BE824700690F96 /* NewNoteViewController.swift in Sources */,
+				FB9B4C4627BE804600690F96 /* MainTableViewController.swift in Sources */,
 				FB9B4C3927BE800000690F96 /* NewNoteApp.xcdatamodeld in Sources */,
-				FB9B4C3327BE800000690F96 /* ViewController.swift in Sources */,
 				FB9B4C2F27BE800000690F96 /* AppDelegate.swift in Sources */,
 				FB9B4C3127BE800000690F96 /* SceneDelegate.swift in Sources */,
 			);
